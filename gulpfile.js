@@ -30,4 +30,4 @@ gulp.task('watch', ['build'], () => {
     return gulp.watch(['src/**/*.ts', 'src/**/*.json'], ['build'])
 })
 
-gulp.task('default', ['watch'],)
+gulp.task('default', ['watch'])
