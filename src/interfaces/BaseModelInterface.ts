@@ -1,6 +1,6 @@
-import { ModelsHashInterface } from "sequelize";
+import { ModelsInterface } from "./ModelsInterface"
 
 export interface BaseModelInterface {
     prototype?
-    associate?(models: ModelsHashInterface): void
+    associate?(models: ModelsInterface): void
 }

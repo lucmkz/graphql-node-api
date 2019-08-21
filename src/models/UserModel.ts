@@ -8,9 +8,9 @@ export interface UserAttributes {
     name?: string
     email?: string
     password?: string
-    photo?: String
-    createdAt?: String
-    updatedAt?: String
+    photo?: string
+    createdAt?: string
+    updatedAt?: string
 }
 
 export interface UserInstance extends Sequelize.Instance<UserAttributes>, UserAttributes {
