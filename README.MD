@@ -10,8 +10,10 @@ In localhost you can acess /graphql to see GrapjQL`s interface
 
 ### `npm gulp`
 
-Launches the gulp runner in the interactive watch mode.<br>
+Launches the gulp runner in watch mode.<br>
 Every update, yours JS files are deployed in /dist directory
 
 
 ## A blog Aplication
+
+Development...
